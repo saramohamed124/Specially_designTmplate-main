@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect"  class="d-inline-block rounded-circle float-start"href="https://fonts.googleapis.com">
+    <link rel="preconnect"  class="d-inline-block rounded-circle float-start"href="https://fonts.gstatic.com" crossorigin>
+    <link  class="d-inline-block rounded-circle float-start"href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Start Setting Box -->
+    <div class="setting-box position-fixed top-0  z-3 min-vh-100 bg-light  "
+        style="left:-250px; transition: 0.3s; width: 250px;">
+        <div class="toggle-settings  position-absolute   bg-light text-center"
+            style="right:-40px; top: 100px; cursor: pointer;">
+            <i class="fa fa-gear fw-2 pt-2 pb-2" style="width: 40px;"></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box p-2 m-3 text-center " style="background-color: #eee;">
+
+                <h4 class="m-0 text-black-50 pb-4">Colors</h4>
+                <ul class="colors-list list-unstyled p-0 text-center">
+                    <li class="active" data-color="#ff9800"></li>
+                    <li data-color="#e91e63"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#307fda"></li>
+                    <li data-color="#2ace2a"></li>
+                </ul>
+            </div>
+            <div class="option-box p-2 m-3 text-center " style="background-color: #eee;">
+                <h4 class="fs-6">Random Backgrounds</h4>
+                <div class="random-back">
+                    <span class="yes active" data-back="yes">Yes</span>
+                    <span class="no" data-back="no">No</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start landing Page -->
+
+    <div class=" landing position-relative">
+        <div class="overlay position-absolute w-100 h-100 z-2 top-0 end-0 bg-dark opacity-50"></div>
+        <div class=" p-2 d-flex justify-content-between gap-2 align-items-center position-relative z-2 text-white">
+            <div class="logo p-1 text-start fw-bold" style="width: 400px;">
+                Special Design</div>
+
+            <ul class="list-unstyled d-flex  justify-content-between gap-3 m-0 pe-2">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="intro-text position-absolute top-50 z-2 text-white text-center"
+            style=" transform:translate(-50%,-50%); left: 50%;">
+            <h1 class="fs-1 m-0 lh-base fw-bold">We are <span style="color: var(--main-color);">Creative</span>
+                Agency
+            </h1>
+            <p class="lh-base fs-base">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
+                aspernatur
+                magni
+                obcaecati, fuga
+                perspiciatis maxime.</p>
+        </div>
+    </div>
+    </div>
+    <!-- End landing Page -->
+
+    <!-- Start About Us -->
+    <div class="container">
+        <div class="about-us pt-5 pb-3 d-flex flex-column flex-md-row">
+            <div style="flex: 1;" class="p-2">
+                <h2 class="fs-2 fw-bold m-0 mb-2" style="color: var(--main-color);">About Us</h2>
+                <p class="lh-lg text-black-50 m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+                    tenetur dicta magnam vero velit aperiam culpa cupiditate sunt, doloremque, quo vitae, neque illo
+                    recusandae tempore voluptatibus voluptates nulla aliquid corrupti? </p>
+            </div>
+            <div style="flex: 1;" class="text-center">
+                <img style="width: 250px;" class="img-fluid" src="images/illustration.jpg" alt="illustration">
+            </div>
+        </div>
+    </div>
+    <!-- End About Us -->
+    <!-- Start Our Skills -->
+    <div class="skills pt-3 pb-3 bg-secondary-subtle">
+        <div class="container">
+            <h2 class="fw-bold fs-2 m-0 mb-5  mt-5 text-center" style="color: var(--main-color);">Our Skills</h2>
+            <div class="skill-box  bg-light bg-opacity-75 d-flex justify-content-evenly p-3 mb-3">
+                <div class="name pe-2">
+                    HTML
+                </div>
+                <div class="progress">
+                    <span data-progress="95"></span>
+
+                </div>
+            </div>
+            <div class="skill-box bg-light bg-opacity-75 d-flex justify-content-evenly p-3 mb-3">
+                <div class="name pe-2">
+                    CSS
+                </div>
+                <div class="progress">
+                    <span data-progress="85"></span>
+                </div>
+            </div>
+            <div class="skill-box bg-light bg-opacity-75 d-flex justify-content-evenly p-3 mb-3">
+                <div class="name pe-2">
+                    JavaScript
+                </div>
+                <div class="progress ">
+                    <span data-progress="55"></span>
+
+                </div>
+            </div>
+            <div class="skill-box bg-light bg-opacity-75 d-flex justify-content-evenly p-3 mb-3">
+                <div class="name pe-2">
+                    PHP
+                </div>
+                <div class="progress ">
+                    <span data-progress="35"></span>
+                </div>
+
+            </div>
+            <div class="skill-box bg-light bg-opacity-75 d-flex justify-content-evenly p-3 mb-3">
+                <div class="name pe-2">
+                    SQL
+                </div>
+                <div class="progress ">
+                    <span data-progress="50"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Our Skills -->
+
+    <!-- Start Our Gallery -->
+    <div class="container py-4 gallery">
+        <h2 class="fw-bold fs-2 m-0 mb-5  mt-5 text-center" style="color: var(--main-color);">Our Gallery</h2>
+        <div class="images-box text-center">
+            <img src="./images/landing-1.jpg" alt="Image-1">
+            <img src="./images/landing-2.jpg" alt="Image-2">
+            <img src="./images/landing-3.jpg" alt="Image-3">
+            <img src="./images/landing-4.jpg" alt="Image-4">
+            <img src="./images/landing-5.jpg" alt="Image-5">
+            <img src="./images/landing-6.jpg" alt="Image-6">
+            <img src="./images/landing-7.jpg" alt="Image-7">
+            <img src="./images/landing-8.jpg" alt="Image-8">
+            <img src="./images/landing-9.jpg" alt="Image-9">
+            <img src="./images/landing-10.jpg" alt="Image-10">
+        </div>
+    </div>
+    <!-- End Our Gallery -->
+    
+    <!--Start Timeline  -->
+    <div class="timeline bg-secondary-subtle">
+    <div class="container py-4 ">
+        <div class="timeline-con position-relative overflow-hidden">
+            <div class="year">
+                2018
+            </div>
+            <div class="left">
+                <div class="content">
+                    <h3>Testing Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non illum, fugiat ipsa exercitationem, sunt nulla doloribus quam repudiandae assumenda sint pariatur illo! Maxime nihil repellat magnam repudiandae atque minima?</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="right">
+                <div class="content">
+                    <h3>Testing Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non illum, fugiat ipsa exercitationem, sunt nulla doloribus quam repudiandae assumenda sint pariatur illo! Maxime nihil repellat magnam repudiandae atque minima?</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="year">2019</div>
+            <div class="left">
+                <div class="content">
+                    <h3>Testing Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non illum, fugiat ipsa exercitationem, sunt nulla doloribus quam repudiandae assumenda sint pariatur illo! Maxime nihil repellat magnam repudiandae atque minima?</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+             <div class="left">
+                <div class="content">
+                    <h3>Testing Heading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non illum, fugiat ipsa exercitationem, sunt nulla doloribus quam repudiandae assumenda sint pariatur illo! Maxime nihil repellat magnam repudiandae atque minima?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--End Timeline  -->
+
+    <!-- Start Our Features -->
+    <div class="features">
+        <h2 class="fw-bold fs-3 text-center">Our Features</h2>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+            <div class="feat-box mb-5 text-center col-8 col-md-6 col-lg-4">
+                <img class="mb-3" src="images/icon-1.png" alt="icon-1">
+                <h4 class="fw-bold mb-4 position-relative">Analaysis</h4>
+                <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, deleniti!</p>
+            </div>
+            <div class="feat-box mb-5 text-center  col-8 col-md-6 col-lg-4">
+                <img class="mb-3" src="images/icon-2.png" alt="icon-2">
+                <h4 class="fw-bold mb-4 position-relative">Coding</h4>
+                <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, deleniti!</p>
+            </div>
+            <div class="feat-box mb-5 text-center  col-8 col-md-6 col-lg-4">
+                <img class="mb-3" src="images/icon-3.png" alt="icon-3">
+                <h4 class="fw-bold mb-4 position-relative">Configuration</h4>
+                <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, deleniti!</p>
+            </div>
+            <div class="feat-box mb-5 text-center   col-8 col-md-6 col-lg-4">
+                <img class="mb-3" src="images/icon-4.png" alt="icon-4">
+                <h4 class="fw-bold mb-4 position-relative">Responsive</h4>
+                <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, deleniti!</p>
+            </div>
+            <div class="feat-box mb-5 text-center   col-8 col-md-6 col-lg-4">
+                <img class="mb-3" src="images/icon-5.png" alt="icon-5">
+                <h4 class="fw-bold mb-4 position-relative">Testing</h4>
+                <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, deleniti!</p>
+            </div>
+            <div class="feat-box mb-5 text-center   col-8 col-md-6 col-lg-4">
+                <img class="mb-3" src="images/icon-6.png" alt="icon-6">
+                <h4 class="fw-bold mb-4 position-relative">Planing</h4>
+                <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, deleniti!</p>
+            </div>
+</div>
+        </div>
+    </div>
+    <!-- End Our Features -->
+
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+        <h2 class="pt-5 ps-5 fw-bold fs-2 text-start text-white">Testimonials</h2>
+        <div class="test-content mx-2 row text-center d-flex g-3 justify-content-evenly align-content-center">
+            <div class="ts-box col-lg-4 col-md-6 col-9 bg-white p-3 " >
+                <p class="lh-base m-0 mb-4 text-black-50  fst-italic">I am very happy with the product it is amazing, i recieve it very fast and the price was amazing.</p>
+                <div class="person-info">
+                    <img class="d-inline-block rounded-circle float-start" src="https://placehold.it/80/EEE" alt="EEE">
+                    <h4>Sara Mohamed</h4>
+                    <p >CEO At Company</p>
+                </div>
+            </div>
+            
+            <div class="ts-box  col-lg-4 col-md-6 col-9 bg-white p-3 ms-1">
+                <p class="lh-base m-0 mb-4 text-black-50  fst-italic">I am very happy with the product it is amazing, i recieve it very fast and the price was amazing.</p>
+                <div class="person-info">
+                    <img class="d-inline-block rounded-circle float-start" src="https://placehold.it/80/DDD" alt="DDD">
+                    <h4>Ola Ali</h4>
+                    <p >CEO At Company</p>
+                </div>
+            </div>
+
+            <div class="ts-box  col-lg-4 col-md-6 col-9 bg-white p-3 ">
+                <p class="lh-base m-0 mb-4 text-black-50  fst-italic">I am very happy with the product it is amazing, i recieve it very fast and the price was amazing.</p>
+                <div class="person-info">
+                    <img class="d-inline-block rounded-circle float-start" src="https://placehold.it/80/AAA" alt="AAA">
+                    <h4>Sama Amr</h4>
+                    <p >CEO At Company</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Testimonials -->
+
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+        <div class="bullet"><div class="bullet-info">About Us</div></div>
+        <div class="bullet"><div class="bullet-info">Our Skills</div></div>
+        <div class="bullet"><div class="bullet-info">Our Gallery</div></div>
+        <div class="bullet"><div class="bullet-info">Testimonials</div></div>
+    </div>
+    <!-- End Nav Bullets -->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
